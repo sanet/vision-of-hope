@@ -1,0 +1,108 @@
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+/*  RESET - http://meyerweb.com/eric/tools/css/reset/ - V2                                                                              */
+
+    html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, 
+    form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+    body { line-height: 1; }
+    ol, ul { list-style: none; }
+    blockquote, q { quotes: none; }
+    blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+    table { border-collapse: collapse; border-spacing: 0; }
+    input, select, textarea { outline: none; }
+    
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+/*  GLOBALS - styles you use ALL the time                                                                                               */
+
+    div, p, input, textarea, select { font-family: Arial, Helvetica, Tahoma, Verdana, sans-serif; font-size: 12px; color: #505050; line-height: 15px; }
+    .align_left { float: left!important; }
+    .align_right { float: right!important; }
+    .round_topleft { border-top-left-radius: 8px!important; -moz-border-radius-topleft: 8px!important; }
+    .round_topright { border-top-top-radius: 8px!important; -moz-border-radius-topright: 8px!important; }
+    .no_marg { margin: 0!important; }
+    .no_marg_right { margin-right: 0!important; }
+    .no_pad { padding: 0!important; }
+    .no_pad_right { padding-right: 0!important; }
+    .no_pad_top { padding-top: 0!important; }
+    .no_pad_bottom { padding-bottom: 0!important; }
+    .no_bg { background: 0!important; }
+    .no_bord { border: 0!important; }
+    .show { display: block!important; }
+    .hide { display: none!important; }
+    .bg_ddd { background: #ddd; }
+    .green { color: #b4c336!important; }
+    .grey { color: #505050!important; }
+    .light_grey { color: #909090!important; }
+    strong { font-weight: bold; }
+    a,
+    a:visited { color: #b4c336; text-decoration: none; }
+    a:hover { color: #b4c336; text-decoration: underline; }
+    a,
+    a:focus { outline: none; }
+    .clearfix { width: 100%!important; clear: both!important; height: 1px!important; display: block!important; padding: 0!important; margin: 0!important; }
+
+		
+/* HELPERS */
+
+    .clear { width: 97%; height: 0px!important; clear: both; }
+    .text_center { text-align: center; }
+    .text_small { font-size: 11px; }
+    .no_pad_bottom { padding-bottom: 0!important; } 
+    .no_marg_right { margin-right: 0!important; }
+    .show { display: block!important; }
+    .padded { padding-top: 15px!important; }
+
+/* GLOBAL */
+
+	html, body { height: 100%; background: #eaeaea; }
+	.bg_header { width: 100%; height: 168px; background-color: #a2a0a1; }
+	.bg_footer { width: 100%; height: 335px; background-color: #a2a0a1; }
+
+
+/* HEADER */
+
+	.header { width: 960px; height: 168px; margin: 0 auto; }
+	    .header_top { width: 960px; height: 33px; padding: 0 26px; background: transparent url(../img/bg_header_top.png) repeat-y; }
+	    .header_top a { float: left; margin: 10px 0 0 10px; text-transform: uppercase; font-weight: bold; color: #FFF; }
+	    /* search form */
+	    form { width: 220px; height: 23px; float: right; margin: 0 5px 0 0; }
+		form p.field { width: 150px; height: 23px; float: left; padding: 5px 0 0 0; margin: 5px 0 0 0; background: url(../img/bg_field_input.png) no-repeat; }
+		form p.field input { width: 150px; float: left; padding: 0 0 0 22px; border: 0; background: url(../img/icon_hglass.png) no-repeat 6px 0; }
+		form p.btn { width: 70px; height: 23px; float: left; padding: 0; margin: 5px 0 0 0; background: url(../img/btn_search.png) no-repeat; }
+		form p.btn input { width: 70px; height: 23px; float: left; background: none; border: 0; color: #FFF; text-transform: uppercase; font-weight: bold; }
+		form p.btn input:hover { cursor: pointer; }
+		.header_top .social { width: 60px; height: 23px; float: right; margin: 5px 5px 0 0; }
+		.header_top .social li.fb { width: 16px; height: 16px; float: left; margin: 0 5px 0 0; background: url(../img/icon_facebook.png) no-repeat; }
+		.header_top .social li.tw { width: 16px; height: 16px; float: left; margin: 0 5px 0 0; background: url(../img/icon_twitter.png) no-repeat; }
+		.header_top .social li.rss { width: 16px; height: 16px; float: left; background: url(../img/icon_rss.png) no-repeat; }
+		
+		.header_bottom { width: 960px; height: 135px; padding: 0 26px; background: transparent url(../img/bg_header_bottom.png) repeat-y; }
+		    .logo { width: 242px; height: 112px; float: left; background: url(../img/logo.jpg) no-repeat; }
+		    .menu { width: 400px; float: right; }
+		    .menu ul { list-style-type: 0; }
+		    .menu ul li { width: 120px; float: left; }
+
+
+/* FOOTER */
+
+	.footer { width: 960px; height: 335px; margin: 0 auto; }
+		.footer div { padding: 10px; color: #FFF; }
+		.footer .legal { padding-top: 5px; }
+		.footer a { font-family: AvantGarde; font-size: 12px; text-decoration: none; }
+
+
+/* CONTENT */
+
+    .content { width: 960px; min-height: 100px; margin: 0 auto; }
+
+
+
+
+
+
+
+
+
+
