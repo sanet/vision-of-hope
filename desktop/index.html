@@ -9,6 +9,12 @@
     <link rel="shortcut icon" href="img/favicon.ico" />
     <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/anythingslider.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.2.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/libs.js"></script>
+    
 </head>
 <body>
 
@@ -34,15 +40,19 @@
 		        <div class="logo"><a href="index.html"><img src="img/logo.png" /></a></div>
 		        <div class="menu">
 		            <ul>
-		                <li><a href=".">About VOHF</a></li>
+		                <li class="on"><a href="index.html">About VOHF</a></li>
 		                <li><a href=".">Community</a></li>
 		                <li><a href=".">Counselling</a></li>
+		            </ul>
+		            <ul>
 		                <li><a href=".">Gallery</a></li>
-		                <li><a href=".">Upcoming Events</a></li>
-		                <li><a href=".">Donations</a></li>
+                        <li><a href=".">Upcoming Events</a></li>
+                        <li><a href=".">Donations</a></li>
+		            </ul>
+		            <ul>
 		                <li><a href=".">Resources</a></li>
-		                <li><a href=".">Friends of VOHF</a></li>
-		                <li><a href=".">Contact Us</a></li>
+                        <li><a href=".">Friends of VOHF</a></li>
+                        <li><a href=".">Contact Us</a></li>
 		            </ul>
 		        </div><!--/menu-->
 		    </div><!--/Header-->
@@ -50,16 +60,39 @@
     
     </div><!-- /bg_header -->
 
-    <div class="content">
-        <div class="side_bigger"></div><!--/Side_bigger-->
-        
-        <div class="side_smaller"></div><!--/Side_smaller-->     
+    <div class="bg_content">
+        <div class="content">
+	        <div class="main">           
+                <div class="promo">
+                    <ul id="slider">
+                        <li class="slide1">
+                            <h1>Vision of Hope Kloof Classic 2012</h1>
+                            <p>Come join us for the launch of the Vision of Hope Foundation, featuring the Cross warriors!</p>
+                            <a class="slider_link" href="/">View details ></a>
+                        </li>
+                        <li class="slide2">
+                            <h1>Morbi sit amet leo purus</h1>
+                            <p>Sed cursus ipsum id justo suscipit sed mollis odio venenatis urabitur mattis pretium elit.</p>
+                            <a class="slider_link" href="/">View details ></a>
+                        </li>
+                    </ul>
+                </div>
 
+	        </div><!--/Main-->
+	        
+	        <div class="widgets">
+	           <p>widgets</p>
+	           <p>widgets</p>
+	           <p>widgets</p>
+	           <p>widgets</p>
+	        </div><!--/Widgets-->     
+        </div>
     </div><!--/Content-->
     
     <div class="bg_footer">
 	    <div class="footer">
-	        <div class="legal">Copyright &copy; 2010 All Rights Reserved<br /> Developed by www.unomena.com <br /> Unomena logo</div>
+	        <div class="legal">Copyright &copy; 2010 All Rights Reserved</div>
+	        <div class="credits">Developed by <a target="_blank" href="http://www.unomena.com">www.unomena.com</a> <br /><img width="162" height="23" src="img/logo_unomena.png" /></div>
 	    </div><!--/Footer-->
     </div>
 
